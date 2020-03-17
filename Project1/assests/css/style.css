@@ -1,0 +1,104 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../images/table2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.navbar a {
+    font-family: 'Lobster', cursive;
+
+}
+
+.info {
+    color: seashell;
+    height: 25rem;
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    background-color: rgba(0, 0, 0, .7);
+    padding: 2rem;
+    border-radius: 5px;
+    margin-right: 10rem;
+
+}
+
+.info h1 {
+    padding-bottom: 1rem;
+}
+
+.info a {
+    text-decoration: none;
+
+}
+
+.carousel {
+    width: 45%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.carousel img{
+    border: solid 1px black;
+}
+
+.carousel p, h5 {
+    background-color: rgba(0, 0, 0, .7);
+    width: 100%;
+}
+
+.carousel h5 {
+    margin-bottom: 0%;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    color: seashell;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.footer img {
+    height: 17px;
+    width: 17px;
+    margin-left: 5px;
+}
+
+.gmap {
+    margin-left: 33.34%;
+    margin-top: 12rem;
+    width: 33.34%;
+}
+
+.box1, .box2 {
+    width: 25%;
+    margin-left: 1rem;
+}
+
+.box1 {
+    position: absolute;
+    top: 68%;
+    left: 3%;  
+}
+
+.box2 {
+   position: absolute;
+   top: 68%;
+   left: 66.66%;
+
+}
+
+.input-group button {
+    background-color: rgba(0, 0, 0, .7);
+    color: seashell;
+}
